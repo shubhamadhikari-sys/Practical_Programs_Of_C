@@ -9,13 +9,14 @@ int main(){
         }
         for( j = 1 ; j  <= (2*i-1) ; j++)
         {
-           // if( i == 4 || j == 1 || j == (2*i-1))
+           if( i == 4 || j == 1 || j == (2*i-1))
             printf("*");
-            // else
-            // printf(" ");
+            else
+            printf(" ");
         }
         a++;
         printf("\n");
     }
 return 0;
+
 }
